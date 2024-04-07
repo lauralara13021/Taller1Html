@@ -1,0 +1,160 @@
+/* Fuentes */
+
+@font-face {
+    font-family: 'FontArt'; 
+    src: url('Fonts/CuteFont-Regular.otf') format('opentype'); /* Ruta al archivo .otf */
+}
+/* Principales */
+
+body {
+    background-color:
+     #f188ab;}
+
+h1 {
+    color:#ffffff;
+    font-family: 'FontArt';
+    font-size: 3em;
+
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    font-size: 5em;
+    font-family: 'FontArt', cursive, sans-serif;
+    text-shadow: 2px 2px 4px rgba(255, 176, 248, 0.5);
+    border: 2px solid white; 
+    padding: 5px; 
+    margin: 10px 0; 
+}
+
+h1, h5 {
+    border-bottom: 1px solid white;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.sparkle {
+    position: absolute;
+    display: block;
+    pointer-events: none;
+    width: 10px;
+    height: 10px;
+    background: transparent;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    animation: sparkleAnimation 1.5s infinite;
+  }
+  
+  @keyframes sparkleAnimation {
+    0% {
+      transform: scale(0);
+      opacity: 0;
+    }
+    50% {
+      transform: scale(1);
+      opacity: 1;
+    }
+    100% {
+      transform: scale(0);
+      opacity: 0;
+    }
+  }
+  
+
+p{
+    color: rgb(171, 3, 115);
+}
+
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.menu-bar {
+    background-color: #ff55ad;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1px;
+}
+
+.menu-item {
+    color: white;
+    font-family: 'FontArt';
+    font-size: 1.2em;
+    margin-right: 1px;
+    text-decoration: none;
+    font-weight: 200;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+  }
+  
+.card-body {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #fbfbfb;
+  }
+
+.card-title {
+    color: rgb(171, 1, 69);
+}
+
+.btn-primary {
+    background-color: #f60b88;
+    border-color: rgb(209, 74, 74);
+    accent-color: rgb(234, 122, 172);
+}
+
+.btn-primary:hover {
+    background-color:  #f3699c;
+    color: rgb(8, 5, 5); 
+    border-color: white;
+}
+
+.formulario-caja {
+    font-family: 'FontArt';
+    font-size: 1.4em;
+    padding: 20px;
+    width: 1000px;
+    margin: 0 auto; 
+}
+
+label {
+    display: block; 
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select {
+    width: 1;
+    padding: 1px;
+ 
+  
+}
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+.tool-title {
+    color: rgb(191, 0, 156); /* Cambia el color a tu gusto */
+    font-family: 'FontArt';
+    font-size: 2em;
+}
